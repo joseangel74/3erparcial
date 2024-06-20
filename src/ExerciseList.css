@@ -1,0 +1,16 @@
+.exercise-list {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en filas */
+    justify-content: center; /* Centra la lista de tarjetas */
+    gap: 20px; /* Espacio entre tarjetas */
+    padding: 20px; /* Espacio alrededor de la lista */
+  }
+  
+  .info { /* Info del numero de ejercicios */
+    display: flex;
+    justify-content: space-between; /* Alinea el texto y el número a los lados */
+    padding: 10px;
+    background-color: #1e2024; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    margin-bottom: 20px; /* Espacio debajo del info */
+  }
